@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C26A77E1FDB4DAC00D9C311 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C26A77D1FDB4DAC00D9C311 /* ItemCell.swift */; };
+		7C26A7801FDC6E0E00D9C311 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C26A77F1FDC6E0E00D9C311 /* DetailViewController.swift */; };
 		7C33BC751FD7580700CBCDE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C33BC741FD7580700CBCDE3 /* AppDelegate.swift */; };
 		7C33BC7A1FD7580700CBCDE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C33BC781FD7580700CBCDE3 /* Main.storyboard */; };
 		7C33BC7C1FD7580700CBCDE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C33BC7B1FD7580700CBCDE3 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C26A77D1FDB4DAC00D9C311 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		7C26A77F1FDC6E0E00D9C311 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7C33BC711FD7580700CBCDE3 /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C33BC741FD7580700CBCDE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C33BC791FD7580700CBCDE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -81,6 +85,7 @@
 		7C33BC681FD7580700CBCDE3 = {
 			isa = PBXGroup;
 			children = (
+				7C26A77D1FDB4DAC00D9C311 /* ItemCell.swift */,
 				7C33BC731FD7580700CBCDE3 /* Homepwner */,
 				7C33BC881FD7580800CBCDE3 /* HomepwnerTests */,
 				7C33BC931FD7580800CBCDE3 /* HomepwnerUITests */,
@@ -109,6 +114,7 @@
 				7C33BC7B1FD7580700CBCDE3 /* Assets.xcassets */,
 				7C33BC7D1FD7580700CBCDE3 /* LaunchScreen.storyboard */,
 				7C33BC801FD7580700CBCDE3 /* Info.plist */,
+				7C26A77F1FDC6E0E00D9C311 /* DetailViewController.swift */,
 			);
 			path = Homepwner;
 			sourceTree = "<group>";
@@ -268,7 +274,9 @@
 				7C33BCA31FD75FA600CBCDE3 /* ItemsViewController.swift in Sources */,
 				7C33BCA51FD75FF700CBCDE3 /* Item.swift in Sources */,
 				7C33BCA71FD7609200CBCDE3 /* ItemStore.swift in Sources */,
+				7C26A7801FDC6E0E00D9C311 /* DetailViewController.swift in Sources */,
 				7C33BC751FD7580700CBCDE3 /* AppDelegate.swift in Sources */,
+				7C26A77E1FDB4DAC00D9C311 /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
