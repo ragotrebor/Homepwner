@@ -17,5 +17,17 @@ class CustomTextField: UITextField {
         // Drawing code
     }
     */
+    
+    override func becomeFirstResponder() -> Bool {
+        self.borderStyle = .line
+        
+        return super.becomeFirstResponder()
+    }
+    
+    override func resignFirstResponder() -> Bool {
+        self.borderStyle = .roundedRect
+        
+        return super.resignFirstResponder()
+    }
 
 }

@@ -10,6 +10,14 @@ import UIKit
 
 class ItemDateViewController: UIViewController {
 
+    var item: Item!
+    
+    @IBOutlet weak var itemDate: UIDatePicker!
+    
+    @IBAction func itemDatePicked(_ sender: UIDatePicker) {
+        item.dateCreated = sender.date
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,6 +29,11 @@ class ItemDateViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.itemDate.setDate(item.dateCreated, animated: true)
+    }
 
     /*
     // MARK: - Navigation

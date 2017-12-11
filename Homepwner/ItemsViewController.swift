@@ -13,6 +13,7 @@ class ItemsViewController: UITableViewController {
     var itemStore: ItemStore!
     var imageWidth: String = ""
     var imageHeight: String = ""
+    var imageStore: ImageStore!
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -156,7 +157,7 @@ class ItemsViewController: UITableViewController {
         }
 
     }
-    
+
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             let item = itemStore.allItems[indexPath.row]
@@ -171,6 +172,7 @@ class ItemsViewController: UITableViewController {
             
             let deleteAction = UIAlertAction.init(title: "Delete", style: .destructive, handler: { (action) -> Void in
                 self.itemStore.removeItem(item)
+                self.imageStore.deleteImage(forKey: item.itemKey)
                 tableView.deleteRows(at: [indexPath], with: .automatic)
             })
             ac.addAction(deleteAction)
@@ -212,11 +214,14 @@ class ItemsViewController: UITableViewController {
                 let item = itemStore.allItems[row]
                 let detailViewController = segue.destination as! DetailViewController
                 detailViewController.item = item
+                detailViewController.imageStore = imageStore
             }
         default:
             preconditionFailure("Unexpected segue identifier.")
         }
     }
+    
+    
 
     
 
