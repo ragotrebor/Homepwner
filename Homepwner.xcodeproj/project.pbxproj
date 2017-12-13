@@ -21,6 +21,7 @@
 		7CD9A8F91FDDC4A3007850E0 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD9A8F81FDDC4A3007850E0 /* CustomTextField.swift */; };
 		7CD9A8FB1FDDC9A8007850E0 /* ItemDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD9A8FA1FDDC9A8007850E0 /* ItemDateViewController.swift */; };
 		7CD9A8FD1FDE1EE8007850E0 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD9A8FC1FDE1EE8007850E0 /* ImageStore.swift */; };
+		7CD9A8FF1FDE321F007850E0 /* cameraOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD9A8FE1FDE321F007850E0 /* cameraOverlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		7CD9A8F81FDDC4A3007850E0 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		7CD9A8FA1FDDC9A8007850E0 /* ItemDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDateViewController.swift; sourceTree = "<group>"; };
 		7CD9A8FC1FDE1EE8007850E0 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		7CD9A8FE1FDE321F007850E0 /* cameraOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraOverlayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				7CD9A8F81FDDC4A3007850E0 /* CustomTextField.swift */,
 				7CD9A8FA1FDDC9A8007850E0 /* ItemDateViewController.swift */,
 				7CD9A8FC1FDE1EE8007850E0 /* ImageStore.swift */,
+				7CD9A8FE1FDE321F007850E0 /* cameraOverlayView.swift */,
 			);
 			path = Homepwner;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			files = (
 				7CD9A8F91FDDC4A3007850E0 /* CustomTextField.swift in Sources */,
 				7C33BCA31FD75FA600CBCDE3 /* ItemsViewController.swift in Sources */,
+				7CD9A8FF1FDE321F007850E0 /* cameraOverlayView.swift in Sources */,
 				7C33BCA51FD75FF700CBCDE3 /* Item.swift in Sources */,
 				7CD9A8FB1FDDC9A8007850E0 /* ItemDateViewController.swift in Sources */,
 				7C33BCA71FD7609200CBCDE3 /* ItemStore.swift in Sources */,

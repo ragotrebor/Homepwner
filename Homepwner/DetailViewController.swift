@@ -96,6 +96,10 @@ class DetailViewController: UIViewController, UITextFieldDelegate, UINavigationC
         
         if UIImagePickerController.isSourceTypeAvailable(.camera) {
             imagePicker.sourceType = .camera
+            let camOverlay = UIView.init(frame: CGRect.init(x: 0, y: 0, width: 100, height: 100))
+            camOverlay.backgroundColor = UIColor.red
+            
+            imagePicker.cameraOverlayView = camOverlay
         } else {
             imagePicker.sourceType = .photoLibrary
         }
